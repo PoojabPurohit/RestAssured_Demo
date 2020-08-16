@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="7" total="9" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7060" started-at="2020-08-16T20:49:16 IST" finished-at="2020-08-16T20:49:23 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7060" started-at="2020-08-16T20:49:16 IST" finished-at="2020-08-16T20:49:23 IST">
+      <class name="methods.Method_Post">
+        <test-method status="PASS" signature="createUser(java.lang.String, java.lang.String)[pri:0, instance:methods.Method_Post@711f39f9]" name="createUser" duration-ms="5021" started-at="2020-08-16T20:49:16 IST" data-provider="user_data" finished-at="2020-08-16T20:49:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="createUser(java.lang.String, java.lang.String)[pri:0, instance:methods.Method_Post@711f39f9]" name="createUser" duration-ms="1956" started-at="2020-08-16T20:49:21 IST" data-provider="user_data" finished-at="2020-08-16T20:49:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raja]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- methods.Method_Post -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
